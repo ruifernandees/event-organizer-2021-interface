@@ -39,8 +39,8 @@ textarea {
 }
 
 /**
-	* MEDIA QUERIES
-	*/
+* MEDIA QUERIES
+*/
 @media (min-width: 1100px) {
 	:root {
 		font-size: 62.5%;
