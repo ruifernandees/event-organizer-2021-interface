@@ -1,0 +1,30 @@
+.dropzone {
+    border: 1px solid #ccc;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+}
+
+.lecturesLabelContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .lecturesLabelContent {
+        flex-direction: column;
+        word-wrap: break-word;
+        width: 70vw;
+    }
+    
+    .titleLecturesLabel {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 400px) {
+    .titleLecturesLabel {
+        font-size: 1.6rem;
+    }
+}
