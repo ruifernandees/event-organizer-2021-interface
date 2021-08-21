@@ -1,0 +1,78 @@
+#organizerRootContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 40rem;
+    margin: 3rem 0;
+}
+
+.lecturesForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    align-items: center;
+}
+
+.titleLecturesLabel {
+    font-size: 2.4rem;
+    font-weight: 400;
+    width: 40rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.formButton {
+    margin: 1rem 0;
+    padding: 1.6rem 1.6rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--color-light-blue);
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.formButton:hover {
+    filter: brightness(80%);
+}
+
+.event {
+    width: 70vw;
+}
+
+.event .eventTitle {
+    font-size: 3.2rem;
+}
+
+.event .track {
+    margin: 5rem 0;
+}
+
+.event .track hr {
+    margin: 1rem 0;
+    height: .15rem;
+    border: none;
+    background-color: var(--color-orange);
+}
+
+.lecture h1 {
+    font-weight: 400;
+}
+
+.formButton:hover {
+    filter: brightness(80%);
+}
+
+
+@media (max-width: 500px) {
+    .logo {
+        width: 35rem;
+    }
+}
