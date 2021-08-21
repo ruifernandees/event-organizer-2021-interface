@@ -9,7 +9,9 @@ This is the front-end of the [Event Organizer 2021 REST API](https://github.com/
 
 ## 🚀 Run on your machine
 
-Note: it requires yarn or npm installed 
+Note - it requires:
+- yarn or npm installed 
+- **The [REST API](https://github.com/ruifernandees/event-organizer-2021) configured and running**
 
 > Initial steps
 ```bash
