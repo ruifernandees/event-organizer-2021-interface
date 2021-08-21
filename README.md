@@ -26,5 +26,8 @@ $ yarn start
 ```
 
 ### Screens
-#### Home ('/')
+#### Home ('/') - Before sending file
+<img src="public/prints/home-before.png">
+
+#### Home ('/') - After sending file
 <img src="public/prints/home.png">
