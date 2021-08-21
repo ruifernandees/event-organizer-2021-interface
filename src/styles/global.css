@@ -1,0 +1,48 @@
+:root {
+    font-size: 60%;
+    --color-background: #fff;
+    --color-black: #000;
+    --color-light-black: #333;
+    --color-grey: #888;
+    --color-deep-blue: #042333;
+    --color-black-blue: #084d6e;
+    --color-light-blue: #19b1ff;
+    --color-orange: #FF8D00;
+  }
+  
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+  
+body {
+	background-color: var(--color-background);
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+	font: 500 1.6rem Lato;
+}
+
+.container {
+	width: 90vw;
+	max-width: 700px;
+}
+
+/**
+	* MEDIA QUERIES
+	*/
+@media (min-width: 1100px) {
+	:root {
+		font-size: 62.5%;
+	}
+}
